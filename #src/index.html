@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!--meta-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<meta name="description" content="ПОЛЕЗНОЕЖКА. Полезная еда - здоровая семья!">
+	<meta name="keywords" content="полезноежка, полезная еда, вкусная еда, еда">
+	<title>ПОЛЕЗНОЕЖКА</title>
+	<!--Open Graph-->
+	<meta property="og:title" content="ПОЛЕЗНОЕЖКА">
+	<meta property="og:site_name" content="ПОЛЕЗНОЕЖКА">
+	<meta property="og:url" content="/">
+	<meta property="og:description" content="ПОЛЕЗНОЕЖКА. Полезная еда - здоровая семья!">
+	<meta property="og:image" content="img/logo.png">
+	<!--links-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"><!-- Font Awesome -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400&family=Raleway:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet"><!-- Google Fonts -->
+	<link rel="stylesheet" href="css/style.css">
+	<!--other-->
+	<noscript><meta http-equiv="refresh" content="0; url=nojs.html"></noscript>
+	<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(66834556, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+	
+	<div class="wrapper">
+		@@include('_header.html')
+		@@include('_mini-cart.html')
+		<div class="added">Добавлено</div>
+		<main class="main">
+			<section class="intro">
+				<div class="intro__body container">
+					<div class="intro__header">
+						<h1 class="intro__title">ПОЛЕЗНОЕЖКА</h1>
+						<p class="intro__subtitle">Полезная еда - здоровая семья!</p>
+					</div>
+					<div class="intro__text">
+						<p>ПОЛЕЗНОЕЖКА - полезные и натуральные продукты, частного фермерского хозяйства ленинградской области.</p>
+						<p>Вся продукция производится исключительно из натурального коровьего молока.</p>
+						<p>Наша цель - сохранение и приумножение самого ценного актива каждого человека - его здоровья!</p>
+						<p>Мы есть то, что мы едим!<br>&copy; Гиппократ</p>
+					</div>
+					<div class="intro__buttons">
+						<button class="intro__button intro__button_1 slow-scroll" data-href="#catalog">Перейти в каталог</button>
+						<button class="intro__button intro__button_2 slow-scroll" data-href="#feedback">Связаться с нами</button>
+					</div>
+				</div>
+			</section>
+			<section class="advantages" id="advantages">
+				<div class="advantages__body container">
+					<h2 class="title">Преимущества</h2>
+					<div class="advantages__content">
+						<div class="advantages__row">
+							<div class="advantages__column">
+								<img src="img/advantages/01.jpg" alt="">
+							</div>
+							<div class="advantages__column">
+								<p class="advantages__text">1. Проверка продуктов питания (овощей, фруктов...) бытовым нитрат-тестером СОЭКС. Максимально допустимая суточная доза для человека - 3,7 мг/кг веса. Доза, превышающая эти значения токсична.</p>
+							</div>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__column">
+								<p class="advantages__text">2. Проверка уровня радиации бытовым дозиметром SOEKS-01M в помещении, в предметах интерьера и т.д. </p>
+							</div>
+							<div class="advantages__column">
+								<img src="img/advantages/02.jpg" alt="">
+							</div>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__column">
+								<img src="img/advantages/03.jpg" alt="">
+							</div>
+							<div class="advantages__column">
+								<p class="advantages__text">3. Возможность замера уровня СВЧ - излучения микроволновых печей и фона антен сотовой связи. В России допустимое излучение составляет 10 мкВт/см2.</p>
+							</div>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__column">
+								<p class="advantages__text">4. Издревле к колодцу относились уважительно, а воду из него возводили в категорию священной. По мнению тогдашних целителей, она имела целебные свойства и часто применялась в лечении различных заболеваний. Исследования доказывают, до 80 процентов всех заболеваний нашего организма обусловлено ненадлежащего качества питьевой водой. Поэтому очень важно, какую именно воду мы будем пить. Именно колодезная вода отвечает большинству требований, предъявляемых к чистой и полезной воде.</p>
+							</div>
+							<div class="advantages__column">
+								<img src="img/goods/Water/01.webp" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="delivery" id="delivery">
+				<div class="delivery__body container">
+					<h2 class="title">Доставка</h2>
+					<ul class="delivery__list">
+						<li>Заказ оформляется в удобное время</li>
+						<li>После обработки заказа с Вами связываютя и сообщают его номер </li>
+						<li>Доставка заказа осуществляется в течение 2-3 днейне после его оформления </li>
+						<li>Точная дата и время доставки согласовываться в удобной для Вас форме</li>
+						<li>Доставки - от 250р. Точная стоимость согласовывается с заказчиком, после уточнения адреса доставки</li>
+					</ul>
+				</div>
+			</section>
+			<section class="catalog" id="catalog">
+				<div class="catalog__body container">
+					<h2 class="title">Каталог</h2>
+					<div class="catalog__nav">
+						<div class="catalog__nav-item catalog__nav-item_active" data-category="Молочная продукция">Молочная продукция</div>
+						<div class="catalog__nav-item" data-category="Сыры">Сыры</div>
+						<div class="catalog__nav-item" data-category="Мясо птицы">Мясо птицы</div>
+						<div class="catalog__nav-item" data-category="Яйцо">Яйцо</div>
+						<div class="catalog__nav-item" data-category="Копчёная рыба">Копчёная рыба</div>
+						<div class="catalog__nav-item" data-category="Мясо">Мясо</div>
+						<div class="catalog__nav-item" data-category="Нектары с мякотью">Нектары с мякотью</div>
+						<div class="catalog__nav-item" data-category="Вода">Вода</div>
+					</div>
+					<div class="catalog__row">
+						<strong>Корзина не загрузилась по неизвестной причине. Попробуйте перезагрузить страницу.</strong>
+						<!-- <div class="catalog__item" data-category="Молочная продукция">
+							<div class="item-catalog">
+								<div class="item-catalog__img">
+									<img src="img/catalog/item.jpg" alt="">
+								</div>
+								<h3 class="item-catalog__title">Молочная продукция</h3>
+								<p class="item-catalog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo lacus. Integer sed congue ipsum, quis gravida felis. Curabitur.</p>
+								<p class="item-catalog__cost">1010₽</p>
+								<div class="item-catalog__add">
+									<i class="fas fa-cart-plus"></i>
+								</div>
+							</div>
+						</div>
+						<div class="catalog__item" data-category="Сыры">
+							<div class="item-catalog">
+								<div class="item-catalog__img">
+									<img src="img/catalog/item.jpg" alt="">
+								</div>
+								<h3 class="item-catalog__title">Сыры</h3>
+								<p class="item-catalog__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo lacus. Integer sed congue ipsum, quis gravida felis. Curabitur.</p>
+								<p class="item-catalog__cost">1010₽</p>
+								<div class="item-catalog__add">
+									<i class="fas fa-cart-plus"></i>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</section>
+			<section class="feedback" id="feedback">
+				<div class="feedback__body container">
+					<h2 class="feedback__title title">Обратная связь</h2>
+					<form action="core/mail.php" class="feedback__form form">
+						<input type="hidden" name="project_name" value="ПОЛЕЗНОЕЖКА">
+						<input type="hidden" name="admin_email" value="poleznoezhka@rambler.ru">
+						<input type="hidden" name="form_subject" value="ПОЛЕЗНОЕЖКА - Обратная связь">
+						
+						<input type="text" class="form__input" placeholder="Имя:" name="name" required>
+						<div class="form__row">
+							<div class="form__column">
+								<input type="email" class="form__input email-phone-input" placeholder="Email:" name="email" required="required">
+							</div>
+							<div class="form__column">
+								<input type="tel" class="form__input email-phone-input" placeholder="Телефон:" name="phone">
+							</div>
+						</div>
+						<div class="form__choice choice-form">
+							<p>Удобный способ связи:</p>
+							<div class="choice-form__items">
+								<div class="choice-form__item">
+									<label for="email-radio">Email</label>
+									<input type="radio" value="По Email" name="email-phone" id="email-radio" data-label="email" checked>
+								</div>
+								<div class="choice-form__item">
+									<label for="phone-radio">Телефон</label>
+									<input type="radio" value="По телефону" name="email-phone" id="phone-radio" data-label="phone">
+								</div>
+							</div>
+						</div>
+						<textarea name="text" class="form__input" placeholder="Сообщение:" required></textarea>
+						<button class="form__submit" type="submit">Отправить</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		@@include('_footer.html')
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- jQuery -->
+	<script src="js/main2.js"></script>
+</body>
+</html>

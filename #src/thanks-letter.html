@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!--meta-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<meta name="description" content="ПОЛЕЗНОЕЖКА. Полезная еда - здоровая семья!">
+	<meta name="keywords" content="полезноежка, полезная еда, вкусная еда, еда">
+	<title>Оформление заказа - ПОЛЕЗНОЕЖКА</title>
+	<!--Open Graph-->
+	<meta property="og:title" content="Спасибо за письмо!">
+	<meta property="og:site_name" content="ПОЛЕЗНОЕЖКА">
+	<meta property="og:url" content="thanks-letter.html">
+	<meta property="og:description" content="ПОЛЕЗНОЕЖКА. Полезная еда - здоровая семья!">
+	<meta property="og:image" content="img/logo.png">
+	<!--links-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"><!-- Font Awesome -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400&family=Raleway:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet"><!-- Google Fonts -->
+	<link rel="stylesheet" href="css/other.css">
+	<!--other-->
+	<noscript><meta http-equiv="refresh" content="0; url=nojs.html"></noscript>
+	<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(66834556, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+	
+	<div class="wrapper">
+		@@include('_header.html')
+		@@include('_mini-cart.html')
+		<div class="error"></div>
+		<main class="main">
+			<div class="container">
+				<h1 class="title">Спасибо за письмо!</h1>
+				<p class="text">В ближайшее время мы свяжемся с вами!</p>
+			</div>
+		</main>
+		@@include('_footer.html')
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- jQuery -->
+	<script>
+		$('.home-only').remove();
+	</script>
+</body>
+</html>
