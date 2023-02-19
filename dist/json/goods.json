@@ -1,0 +1,184 @@
+{
+	"10": {
+		"name": "Сгущённое молоко",
+		"cost": 115,
+		"description": "Сгущённое молоко. 250 гр",
+		"category": "Молочная продукция",
+		"img": "img/goods/Milk products/10.jpg"
+	},
+	"11": {
+		"name": "Кура домашняя",
+		"cost": 345,
+		"description": "Кура домашняя. Средний вес: 1,5 кг. Цена за 1 кг: 350р.",
+		"category": "Мясо птицы",
+		"img": "img/goods/Poultry/01.jpg"
+	},
+	"12": {
+		"name": "Мясо гуся",
+		"cost": 550,
+		"description": "Мясо гуся. Средний вес: 3 кг. Цена за 1 кг: 550р.",
+		"category": "Мясо птицы",
+		"img": "img/goods/Poultry/02.jpg"
+	},
+	"13": {
+		"name": "Мясо утки",
+		"cost": 450,
+		"description": "Мясо утки. Средний вес: 3 кг. Цена за 1 кг: 450р.",
+		"category": "Мясо птицы",
+		"img": "img/goods/Poultry/03.jpg"
+	},
+	"14": {
+		"name": "Мясо индейки",
+		"cost": 500,
+		"description": "Мясо индейки. Средний вес: 3 кг. Цена за 1 кг: 500р.",
+		"category": "Мясо птицы",
+		"img": "img/goods/Poultry/04.jpg"
+	},
+	"15": {
+		"name": "Мясо дичи",
+		"cost": 500,
+		"description": "Мясо дичи. Индоутка \"Мулард\"",
+		"category": "Мясо птицы",
+		"img": "img/goods/Poultry/05.jpg"
+	},
+	"16": {
+		"name": "Яйцо куриное",
+		"cost": 135,
+		"description": "Яйцо куриное. 1 дес.",
+		"category": "Яйцо",
+		"img": "img/goods/Egg/01.jpg"
+	},
+	"17": {
+		"name": "Яйцо перепелиное",
+		"cost": 170,
+		"description": "Яйцо перепелиное. 20 шт.",
+		"category": "Яйцо",
+		"img": "img/goods/Egg/02.jpg"
+	},
+	"18": {
+		"name": "Терпуг",
+		"cost": 650,
+		"description": "Рыба тепруг. Средний вес: 600г. Цена за 1 кг: 650 р.",
+		"category": "Копчёная рыба",
+		"img": "img/goods/Smoked fish/01.jpg"
+	},
+	"19": {
+		"name": "Форель",
+		"cost": 850,
+		"description": "Рыба форель. Средний вес: 500г. Цена за 1 кг: 850 р.",
+		"category": "Копчёная рыба",
+		"img": "img/goods/Smoked fish/02.jpg"
+	},
+	"20": {
+		"name": "Окунь",
+		"cost": 650,
+		"description": "Морской окунь. Средний вес: 600г. Цена за 1 кг: 650 р.",
+		"category": "Копчёная рыба",
+		"img": "img/goods/Smoked fish/03.jpg"
+	},
+	"21": {
+		"name": "Лещ",
+		"cost": 450,
+		"description": "Лещ. Средний вес: 700г. Цена за 1 кг: 450 р.",
+		"category": "Копчёная рыба",
+		"img": "img/goods/Smoked fish/04.jpg"
+	},
+	"22": {
+		"name": "Судак",
+		"cost": 650,
+		"description": "Судак. Средний вес: 1000г. Цена за 1 кг: 650 р.",
+		"category": "Копчёная рыба",
+		"img": "img/goods/Smoked fish/05.jpg"
+	},
+	"23": {
+		"name": "Нектар яблочный",
+		"cost": 100,
+		"description": "Нектар яблочный 0.5 л.",
+		"category": "Нектары с мякотью",
+		"img": "img/goods/Nectars with pulp/01.jpg"
+	},
+	"24": {
+		"name": "Нектар абрикосовый",
+		"cost": 100,
+		"description": "Нектар абрикосовый 0.5 л.",
+		"category": "Нектары с мякотью",
+		"img": "img/goods/Nectars with pulp/02.jpg"
+	},
+	"25": {
+		"name": "Баранина",
+		"cost": 490,
+		"description": "Баранина",
+		"category": "Мясо",
+		"img": "img/goods/Meat/01.jpg"
+	},
+	"26": {
+		"name": "Вода колодезная",
+		"cost": 95,
+		"description": "Вода колодезная, 19л",
+		"category": "Вода",
+		"img": "img/goods/Water/01.webp"
+	},
+	"01": {
+		"name": "Молоко коровье",
+		"cost": 90,
+		"description": "Молоко коровье. 1 литр",
+		"category": "Молочная продукция",
+		"img": "img/goods/Milk products/01.jpg"
+	},
+	"02": {
+		"name": "Сливки",
+		"cost": 230,
+		"description": "Сливки. 250 гр",
+		"category": "Молочная продукция",
+		"img": "img/goods/Milk products/02.jpg"
+	},
+	"03": {
+		"name": "Сметана",
+		"cost": 285,
+		"description": "Сметана. 250 гр",
+		"category": "Молочная продукция",
+		"img": "img/goods/Milk products/03.jpg"
+	},
+	"04": {
+		"name": "Масло",
+		"cost": 345,
+		"description": "Масло. 250 гр",
+		"category": "Молочная продукция",
+		"img": "img/goods/Milk products/04.jpg"
+	},
+	"05": {
+		"name": "Творог",
+		"cost": 345,
+		"description": "Творог. 1 кг",
+		"category": "Молочная продукция",
+		"img": "img/goods/Milk products/05.jpg"
+	},
+	"06": {
+		"name": "Сыр Адыгейский",
+		"cost": 790,
+		"description": "Сыр Адыгейский. 1 кг",
+		"category": "Сыры",
+		"img": "img/goods/Milk products/06.jpg"
+	},
+	"07": {
+		"name": "Сыр Сулугуни",
+		"cost": 790,
+		"description": "Сыр Сулугуни. 1 кг",
+		"category": "Сыры",
+		"img": "img/goods/Milk products/07.jpg"
+	},
+	"08": {
+		"name": "Сыр плавленый",
+		"cost": 790,
+		"description": "Сыр плавленый. 1 кг",
+		"category": "Сыры",
+		"img": "img/goods/Milk products/08.jpg"
+	},
+	"09": {
+		"name": "Кефир",
+		"cost": 135,
+		"description": "Кефир. 1 литр",
+		"category": "Молочная продукция",
+		"img": "img/goods/Milk products/09.jpg"
+	}
+}
